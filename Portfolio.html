@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">Chigozie.dev</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Portfolio</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Ojiaku Chigozie George</span></h1>
+            <p class="tagline">Information Technology Student & AI/ML Engineer, Web Developer</p>
+            <p class="tech-stack">Python • TensorFlow • PyTorch • Scikit-learn • JavaScript • React • Node.js • MongoDB</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a Second year Information University student at Federal University of Technology, passionate about creating beautiful and functional Python Web Applications. With a strong foundation in both frontend and backend development, I love turning complex problems into simple, beautiful solutions.</p>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="edu-item">
+                        <h4>BTech in Information Technology</h4>
+                        <p>Federal University of Technology Owerri | 2023 - Present</p>
+                        <ul class="edu-details">
+                            <li>Major in AI Engineer and Web Development</li>
+                            <li>Relevant Coursework: Data Structures, Algorithms, Web Development, AI Engineer and Machine Learning</li>
+                            <li>CGPA: 4.5/5.0</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cv-section">
+                    <h3>Resume</h3>
+                    <p>View my detailed professional background and achievements:</p>
+                    <a href="#" class="btn primary download-cv" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="number">5+</span>
+                    <span class="label">Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number">2+</span>
+                    <span class="label">Years Coding</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number">2+</span>
+                    <span class="label">Certifications</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image"><img src="img/small Spotify.jpeg" alt=""></div>
+                <div class="project-content">
+                    <h3>Project One</h3>
+                    <p>A full-stack web application built with React and Node.js</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="https://spotify.com" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><img src="img/small Shopify.jpeg" alt=""></div>
+                <div class="project-content">
+                    <h3>Project Two</h3>
+                    <p>Mobile-first e-commerce platform</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>Stripe</span>
+                    </div>
+                    <a href="https://shopify.com class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <img src="img/html-5-100.png">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/css-logo-100.png" alt="">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/javascript-100.png" alt="">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/react-100.png" alt="">
+                        <span>React</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <img src="img/nodejs-96.png" alt="">
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/python-100.png" alt="">
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/leonojiaku" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/leonojiaku33" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/leonojiaku33" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/George+leon" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="leonojiaku33@gmail.com" class="social-link"><i class="fab fa-google"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h1>Contact Information</h1>
+            <h4><span>Phone: </span>+234 816 022 8602</h4>
+            <h4><span>Email: </span>leonojiaku33@gmail.com</h4>
+            <h4><span>Address: </span>No 18 Olaseinde Street, Iba Unity-Estate, Ojo, Lagos.</h4>
+        </div>
+        <p>&copy; 2025 Ojiaku Chigozie George. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
+  
